@@ -1,15 +1,15 @@
 import subprocess
 
 
-def installTkinter():
+def installPIL():
     print('正在幫您安裝')
     subprocess.run(
-        ['pip', 'install', 'tkinter'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-    print('tkinter庫已安裝')
+        ['pip', 'install', 'PIL'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    print('PIL庫已安裝')
 
 
 try:
-    import tkinter
+    import PIL
 except ImportError:
-    print('tkinter庫未安裝')
-    installTkinter()
+    print('PIL庫未安裝')
+    installPIL()

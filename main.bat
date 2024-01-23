@@ -1,3 +1,3 @@
 start checkInstall.py
 
-start rename.py
+start batch_resize_images.py

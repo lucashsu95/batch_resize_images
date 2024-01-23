@@ -31,6 +31,6 @@ def resize_images(input_folder, output_folder, width=1920):
             print(f"處理 {file_name} 時發生錯誤：{e}")
 
 if __name__ == "__main__":
-    input_folder = "C:/Users/user/Desktop/test/"
-    output_folder = "C:/Users/user/Desktop/test/img"
+    input_folder = "C:/Users/user/Desktop/batch_resize_images/"
+    output_folder = "C:/Users/user/Desktop/batch_resize_images/img"
     resize_images(input_folder, output_folder)
